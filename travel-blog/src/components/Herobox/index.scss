@@ -1,0 +1,10 @@
+@import "../../App.scss";
+
+.herobox {
+  height: 80vh;
+  max-width: $hero-width;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

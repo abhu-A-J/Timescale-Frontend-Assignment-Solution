@@ -1,0 +1,52 @@
+@import "../../App.scss";
+
+.navbar {
+  width: 100%;
+  background: $primary-light;
+
+  .u-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    @media only screen and(max-width:500px){
+      display:none;
+    }
+  }
+  &__item {
+    padding: 1rem 1.4rem;
+  }
+
+  &__link {
+    color: $gray;
+    font-size: 1.3rem;
+    &--active {
+      border: 1px sloid $primary;
+      color: #fff;
+      border-radius: 5px;
+      background: $primary;
+      padding: 0.7rem 1.4rem;
+    }
+  }
+}
+
+.logo__box {
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: $gray;
+    line-height: 1.2;
+    span {
+      display: block;
+      font-size: 1rem;
+      font-style: italic;
+      font-weight: 400;
+    }
+  }
+}
