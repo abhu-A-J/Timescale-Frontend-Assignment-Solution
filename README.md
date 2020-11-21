@@ -1,50 +1,19 @@
-# Timescale frontend interview assignment
+# Timescale frontend interview assignment solution
 
-There are two parts to this assignment which should take around an hour to complete.
-The first part you will build out a travel blog profile page. The second part 
-you will need to manipulate data in arrays and objects in javascript.
+## Travel Blog Frontend Challenge
 
-## Travel blog
-
-You will need to style a basic profile page for a travel blog. You will need to code the HTML for the page
-and style it. The page is using `create-react-app` to run and compile the page
-
-### Setup
-```
-cd travel-blog
-yarn install
-yarn start
-```
-
-### Restriction
-
-There are a few restrictions in how you should be building the page:
-
-- Fonts and images are already imported for you
-- When naming your classes, try to follow the [BEM](http://getbem.com/introduction/) methodology
-- Styling variables are found at the top of the scss file (/travel-blog/src/App.scss)
-- Use css grid and flexbox to achieve the final layout
-- A responsive version is encouraged but not required (If you do a responsive version, you can just hide the navigation
- to make it easier)
+### Desktop View :
+![screencapture-localhost-3000-2020-11-19-18_38_28](https://user-images.githubusercontent.com/49617450/99676441-833dd900-2a9e-11eb-914e-3f70c13a9b8a.png)
 
 
-### Finished result
+### Tablet View:
+![screencapture-localhost-3000-2020-11-19-18_38_53](https://user-images.githubusercontent.com/49617450/99676454-86d16000-2a9e-11eb-82a8-de1c31af177a.png)
 
-<img src="./images/final-image.png" alt="" />
 
-## Javascript questions
+### Mobile View:
+![screencapture-localhost-3000-2020-11-19-18_39_13](https://user-images.githubusercontent.com/49617450/99676455-8769f680-2a9e-11eb-847c-a5cb172d7ed7.png)
 
-There are 4 functions that you will need to complete to modify the super hero data provided in 
-`javascript-questions/super-heroes.json`
 
-### Setup
+## JavScript Programming Challenge
 
-```
-cd javascript-questions
-yarn install
-yarn test
-```
-
-### Finished result
-
-All of the tests in the `/javascript-questions/test` directory should pass.
+![Screenshot (9)](https://user-images.githubusercontent.com/49617450/99676951-2a227500-2a9f-11eb-972c-f97159b6f560.png)
